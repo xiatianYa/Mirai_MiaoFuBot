@@ -17,10 +17,10 @@ dependencies{
     // Baidu API
     implementation("com.baidu.aip:java-sdk:4.0.0")
     // FastJSON
-    implementation("com.alibaba:fastjson:1.2.46")
-    implementation("com.squareup.okhttp3:okhttp:3.8.1")
-    implementation("org.json:json:20210307")
-    implementation("org.yaml:snakeyaml:1.29")
+    implementation("com.alibaba:fastjson:2.0.45")
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.12")
+    implementation("org.json:json:20231013")
+    implementation("org.yaml:snakeyaml:2.2")
 }
 mirai {
     jvmTarget = JavaVersion.VERSION_1_8
