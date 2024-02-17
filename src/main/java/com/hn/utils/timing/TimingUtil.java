@@ -49,11 +49,11 @@ public class TimingUtil {
                 instance.setXiaoSanList(new ArrayList<>());
                 // 删除离婚
                 instance.setLiHunList(new ArrayList<>());
-                System.out.println("5分钟定时任务被调用...");
+                System.out.println("3小三定时任务被调用...");
             }
         };
         // 设置定时器任务的时间间隔为5分钟（300000毫秒）
-        timer.scheduleAtFixedRate(task, 0, 5*60*1000);
+        timer.scheduleAtFixedRate(task, 0, 180*60*1000);
     }
 }
 
