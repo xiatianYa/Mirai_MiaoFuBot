@@ -94,7 +94,7 @@ public class CatEventHandler extends SimpleListenerHost {
                 manager.forEach(item->{
                     messageChainBuilder.append(item.toString()).append("\n");
                 });
-                messageChainBuilder.append("======检测开关状态======\n");
+                messageChainBuilder.append("=======检测开关=======\n");
                 messageChainBuilder.append(instance.getOpenProhibit() ? "开启" : "关闭").append("\n");
                 MessageChain messages = messageChainBuilder.build();
                 //发送配置文件信息
